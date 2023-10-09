@@ -12,6 +12,20 @@ int main()
         {
             even++;
         }
+        else
+        {
+            odd++;
+        }
+        if (a > 0)
+        {
+            pos++;
+        }
+        else if (a < 0)
+        {
+            neg++;
+        }
     }
+
+    printf("Even: %d\nOdd: %d\nPositive: %d\nNegative: %d\n", even, odd, pos, neg);
     return 0;
 }
