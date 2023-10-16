@@ -18,9 +18,9 @@ int main()
         if (arr[i] < lower)
         {
             lower = arr[i];
-            position = i;
+            position = i + 1;
         }
     }
-    printf("%d %d", lower, position + 1);
+    printf("%d %d", lower, position);
     return 0;
 }
