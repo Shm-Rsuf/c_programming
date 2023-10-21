@@ -2,10 +2,9 @@
 #include <string.h>
 int main()
 {
-    char a[100];
-    // gets(a);
-    fgets(a, 20, stdin);
-    a[18] = '\0';
-    printf("%s", a);
+    char s[25];
+    fgets(s, 19, stdin);
+    s[17] = '\0';
+    printf("%s", s);
     return 0;
 }
