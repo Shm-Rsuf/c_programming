@@ -1,3 +1,4 @@
-p er man - 100
-x er add - 0061FF18
-x er new val - 500
+15
+15
+15
+15
